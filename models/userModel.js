@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema(
     password: { type: String, required: true },
     phone: { type: Number, required: true },
     isAdmin: { type: Boolean, required: true, default: false },
-    address: { type: Number, required: true },
+    address: { type: String, required: true },
     city: { type: String },
     country: { type: String },
     cart: [
