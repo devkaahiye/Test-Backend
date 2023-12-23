@@ -12,16 +12,16 @@ const productsShema = mongoose.Schema({
         required: true,
         trim: true,
       },
-      images: {
+      image: {
+        type: String,
+        required: true,
+      },
+      category: {
         type: String,
         required: true,
       },
       price: {
         type: Number,
-        required: true,
-      },
-      category: {
-        type: String,
         required: true,
       },
       oldPrice: {
